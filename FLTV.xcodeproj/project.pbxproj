@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491B56561CE4D5CD003F8011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B56551CE4D5CD003F8011 /* main.m */; };
+		491B56591CE4D5CD003F8011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B56581CE4D5CD003F8011 /* AppDelegate.m */; };
+		491B565F1CE4D5CD003F8011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B565D1CE4D5CD003F8011 /* Main.storyboard */; };
+		491B56611CE4D5CD003F8011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491B56601CE4D5CD003F8011 /* Assets.xcassets */; };
+		491B56641CE4D5CD003F8011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B56621CE4D5CD003F8011 /* LaunchScreen.storyboard */; };
+		491B566E1CE4D6C2003F8011 /* chanelList.xml in Resources */ = {isa = PBXBuildFile; fileRef = 491B566C1CE4D6C2003F8011 /* chanelList.xml */; };
+		491B566F1CE4D6C2003F8011 /* channel_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B566D1CE4D6C2003F8011 /* channel_icon.png */; };
+		491B56711CE4D6C7003F8011 /* app_icons in Resources */ = {isa = PBXBuildFile; fileRef = 491B56701CE4D6C7003F8011 /* app_icons */; };
+		491B56761CE4D77C003F8011 /* FLTVXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B56751CE4D77C003F8011 /* FLTVXMLParser.m */; };
+		491B567C1CE4D809003F8011 /* FLTVChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B567B1CE4D809003F8011 /* FLTVChannel.m */; };
+		491B567F1CE4D812003F8011 /* FLTVChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B567E1CE4D812003F8011 /* FLTVChannelManager.m */; };
+		491B56871CE4D8B3003F8011 /* FLTVPreloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B56861CE4D8B3003F8011 /* FLTVPreloader.m */; };
+		491B568A1CE4D8C0003F8011 /* FLTVPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B56891CE4D8C0003F8011 /* FLTVPlayerController.m */; };
+		491B568D1CE4D8C9003F8011 /* FLTVChannelListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B568C1CE4D8C9003F8011 /* FLTVChannelListController.m */; };
+		491B56931CE4D9FA003F8011 /* UITableViewWithLogoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B56921CE4D9FA003F8011 /* UITableViewWithLogoCell.m */; };
+		491B56951CE4E040003F8011 /* launch_app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B56941CE4E040003F8011 /* launch_app_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		491B56511CE4D5CD003F8011 /* FLTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491B56551CE4D5CD003F8011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		491B56571CE4D5CD003F8011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		491B56581CE4D5CD003F8011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		491B565E1CE4D5CD003F8011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491B56601CE4D5CD003F8011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491B56631CE4D5CD003F8011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		491B56651CE4D5CD003F8011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491B566C1CE4D6C2003F8011 /* chanelList.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = chanelList.xml; path = Resources/chanelList.xml; sourceTree = "<group>"; };
+		491B566D1CE4D6C2003F8011 /* channel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = channel_icon.png; path = Resources/channel_icon.png; sourceTree = "<group>"; };
+		491B56701CE4D6C7003F8011 /* app_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = app_icons; path = Resources/app_icons; sourceTree = "<group>"; };
+		491B56741CE4D77C003F8011 /* FLTVXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTVXMLParser.h; path = BasicLogic/FLTVParser/FLTVXMLParser.h; sourceTree = "<group>"; };
+		491B56751CE4D77C003F8011 /* FLTVXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTVXMLParser.m; path = BasicLogic/FLTVParser/FLTVXMLParser.m; sourceTree = "<group>"; };
+		491B567A1CE4D809003F8011 /* FLTVChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTVChannel.h; path = Model/FLTVChannelObject/FLTVChannel.h; sourceTree = "<group>"; };
+		491B567B1CE4D809003F8011 /* FLTVChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTVChannel.m; path = Model/FLTVChannelObject/FLTVChannel.m; sourceTree = "<group>"; };
+		491B567D1CE4D812003F8011 /* FLTVChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTVChannelManager.h; path = Model/FLTVChannelManager/FLTVChannelManager.h; sourceTree = "<group>"; };
+		491B567E1CE4D812003F8011 /* FLTVChannelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTVChannelManager.m; path = Model/FLTVChannelManager/FLTVChannelManager.m; sourceTree = "<group>"; };
+		491B56851CE4D8B3003F8011 /* FLTVPreloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTVPreloader.h; path = UI/FLTVPreloader/FLTVPreloader.h; sourceTree = "<group>"; };
+		491B56861CE4D8B3003F8011 /* FLTVPreloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTVPreloader.m; path = UI/FLTVPreloader/FLTVPreloader.m; sourceTree = "<group>"; };
+		491B56881CE4D8C0003F8011 /* FLTVPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTVPlayerController.h; path = UI/FLTVPlayer/FLTVPlayerController.h; sourceTree = "<group>"; };
+		491B56891CE4D8C0003F8011 /* FLTVPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTVPlayerController.m; path = UI/FLTVPlayer/FLTVPlayerController.m; sourceTree = "<group>"; };
+		491B568B1CE4D8C9003F8011 /* FLTVChannelListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTVChannelListController.h; path = UI/FLTVChannelList/FLTVChannelListController.h; sourceTree = "<group>"; };
+		491B568C1CE4D8C9003F8011 /* FLTVChannelListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTVChannelListController.m; path = UI/FLTVChannelList/FLTVChannelListController.m; sourceTree = "<group>"; };
+		491B56911CE4D9FA003F8011 /* UITableViewWithLogoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITableViewWithLogoCell.h; path = UI/FLTVChannelList/cellWithLogo/UITableViewWithLogoCell.h; sourceTree = "<group>"; };
+		491B56921CE4D9FA003F8011 /* UITableViewWithLogoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITableViewWithLogoCell.m; path = UI/FLTVChannelList/cellWithLogo/UITableViewWithLogoCell.m; sourceTree = "<group>"; };
+		491B56941CE4E040003F8011 /* launch_app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch_app_icon.png; path = Resources/launch_app_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491B564E1CE4D5CD003F8011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491B56481CE4D5CD003F8011 = {
+			isa = PBXGroup;
+			children = (
+				491B56531CE4D5CD003F8011 /* FLTV */,
+				491B56521CE4D5CD003F8011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491B56521CE4D5CD003F8011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491B56511CE4D5CD003F8011 /* FLTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491B56531CE4D5CD003F8011 /* FLTV */ = {
+			isa = PBXGroup;
+			children = (
+				491B568F1CE4D8F5003F8011 /* Library */,
+				491B56801CE4D836003F8011 /* UI */,
+				491B56771CE4D7A0003F8011 /* Model */,
+				491B56721CE4D737003F8011 /* BasicLogic */,
+				491B566B1CE4D5DA003F8011 /* Resource */,
+				491B56571CE4D5CD003F8011 /* AppDelegate.h */,
+				491B56581CE4D5CD003F8011 /* AppDelegate.m */,
+				491B56601CE4D5CD003F8011 /* Assets.xcassets */,
+				491B56651CE4D5CD003F8011 /* Info.plist */,
+				491B56541CE4D5CD003F8011 /* Supporting Files */,
+			);
+			path = FLTV;
+			sourceTree = "<group>";
+		};
+		491B56541CE4D5CD003F8011 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491B56551CE4D5CD003F8011 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		491B566B1CE4D5DA003F8011 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				491B56701CE4D6C7003F8011 /* app_icons */,
+				491B566C1CE4D6C2003F8011 /* chanelList.xml */,
+				491B566D1CE4D6C2003F8011 /* channel_icon.png */,
+				491B56941CE4E040003F8011 /* launch_app_icon.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		491B56721CE4D737003F8011 /* BasicLogic */ = {
+			isa = PBXGroup;
+			children = (
+				491B56731CE4D742003F8011 /* FLTVParser */,
+			);
+			name = BasicLogic;
+			sourceTree = "<group>";
+		};
+		491B56731CE4D742003F8011 /* FLTVParser */ = {
+			isa = PBXGroup;
+			children = (
+				491B56741CE4D77C003F8011 /* FLTVXMLParser.h */,
+				491B56751CE4D77C003F8011 /* FLTVXMLParser.m */,
+			);
+			name = FLTVParser;
+			sourceTree = "<group>";
+		};
+		491B56771CE4D7A0003F8011 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				491B56781CE4D7B1003F8011 /* FLTVChannelManager */,
+				491B56791CE4D7BB003F8011 /* FLTVChannelObject */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		491B56781CE4D7B1003F8011 /* FLTVChannelManager */ = {
+			isa = PBXGroup;
+			children = (
+				491B567D1CE4D812003F8011 /* FLTVChannelManager.h */,
+				491B567E1CE4D812003F8011 /* FLTVChannelManager.m */,
+			);
+			name = FLTVChannelManager;
+			sourceTree = "<group>";
+		};
+		491B56791CE4D7BB003F8011 /* FLTVChannelObject */ = {
+			isa = PBXGroup;
+			children = (
+				491B567A1CE4D809003F8011 /* FLTVChannel.h */,
+				491B567B1CE4D809003F8011 /* FLTVChannel.m */,
+			);
+			name = FLTVChannelObject;
+			sourceTree = "<group>";
+		};
+		491B56801CE4D836003F8011 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				491B568E1CE4D8D5003F8011 /* Storyboard */,
+				491B56811CE4D83B003F8011 /* View */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		491B56811CE4D83B003F8011 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				491B56841CE4D85F003F8011 /* FLTVChannelList */,
+				491B56831CE4D859003F8011 /* FLTVPlayer */,
+				491B56821CE4D850003F8011 /* FLTVPreloader */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		491B56821CE4D850003F8011 /* FLTVPreloader */ = {
+			isa = PBXGroup;
+			children = (
+				491B56851CE4D8B3003F8011 /* FLTVPreloader.h */,
+				491B56861CE4D8B3003F8011 /* FLTVPreloader.m */,
+			);
+			name = FLTVPreloader;
+			sourceTree = "<group>";
+		};
+		491B56831CE4D859003F8011 /* FLTVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				491B56881CE4D8C0003F8011 /* FLTVPlayerController.h */,
+				491B56891CE4D8C0003F8011 /* FLTVPlayerController.m */,
+			);
+			name = FLTVPlayer;
+			sourceTree = "<group>";
+		};
+		491B56841CE4D85F003F8011 /* FLTVChannelList */ = {
+			isa = PBXGroup;
+			children = (
+				491B56901CE4D9CC003F8011 /* cellWithLogo */,
+				491B568B1CE4D8C9003F8011 /* FLTVChannelListController.h */,
+				491B568C1CE4D8C9003F8011 /* FLTVChannelListController.m */,
+			);
+			name = FLTVChannelList;
+			sourceTree = "<group>";
+		};
+		491B568E1CE4D8D5003F8011 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				491B565D1CE4D5CD003F8011 /* Main.storyboard */,
+				491B56621CE4D5CD003F8011 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		491B568F1CE4D8F5003F8011 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		491B56901CE4D9CC003F8011 /* cellWithLogo */ = {
+			isa = PBXGroup;
+			children = (
+				491B56911CE4D9FA003F8011 /* UITableViewWithLogoCell.h */,
+				491B56921CE4D9FA003F8011 /* UITableViewWithLogoCell.m */,
+			);
+			name = cellWithLogo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491B56501CE4D5CD003F8011 /* FLTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491B56681CE4D5CD003F8011 /* Build configuration list for PBXNativeTarget "FLTV" */;
+			buildPhases = (
+				491B564D1CE4D5CD003F8011 /* Sources */,
+				491B564E1CE4D5CD003F8011 /* Frameworks */,
+				491B564F1CE4D5CD003F8011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLTV;
+			productName = FLTV;
+			productReference = 491B56511CE4D5CD003F8011 /* FLTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491B56491CE4D5CD003F8011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DimaRumyankov;
+				TargetAttributes = {
+					491B56501CE4D5CD003F8011 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T8FTS9342H;
+					};
+				};
+			};
+			buildConfigurationList = 491B564C1CE4D5CD003F8011 /* Build configuration list for PBXProject "FLTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491B56481CE4D5CD003F8011;
+			productRefGroup = 491B56521CE4D5CD003F8011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491B56501CE4D5CD003F8011 /* FLTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491B564F1CE4D5CD003F8011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491B566E1CE4D6C2003F8011 /* chanelList.xml in Resources */,
+				491B56711CE4D6C7003F8011 /* app_icons in Resources */,
+				491B56951CE4E040003F8011 /* launch_app_icon.png in Resources */,
+				491B566F1CE4D6C2003F8011 /* channel_icon.png in Resources */,
+				491B56641CE4D5CD003F8011 /* LaunchScreen.storyboard in Resources */,
+				491B56611CE4D5CD003F8011 /* Assets.xcassets in Resources */,
+				491B565F1CE4D5CD003F8011 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491B564D1CE4D5CD003F8011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491B56761CE4D77C003F8011 /* FLTVXMLParser.m in Sources */,
+				491B56591CE4D5CD003F8011 /* AppDelegate.m in Sources */,
+				491B567C1CE4D809003F8011 /* FLTVChannel.m in Sources */,
+				491B56561CE4D5CD003F8011 /* main.m in Sources */,
+				491B56871CE4D8B3003F8011 /* FLTVPreloader.m in Sources */,
+				491B568A1CE4D8C0003F8011 /* FLTVPlayerController.m in Sources */,
+				491B567F1CE4D812003F8011 /* FLTVChannelManager.m in Sources */,
+				491B56931CE4D9FA003F8011 /* UITableViewWithLogoCell.m in Sources */,
+				491B568D1CE4D8C9003F8011 /* FLTVChannelListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		491B565D1CE4D5CD003F8011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491B565E1CE4D5CD003F8011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		491B56621CE4D5CD003F8011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491B56631CE4D5CD003F8011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491B56661CE4D5CD003F8011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		491B56671CE4D5CD003F8011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		491B56691CE4D5CD003F8011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FLTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GFL.FLTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		491B566A1CE4D5CD003F8011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FLTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GFL.FLTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491B564C1CE4D5CD003F8011 /* Build configuration list for PBXProject "FLTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491B56661CE4D5CD003F8011 /* Debug */,
+				491B56671CE4D5CD003F8011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491B56681CE4D5CD003F8011 /* Build configuration list for PBXNativeTarget "FLTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491B56691CE4D5CD003F8011 /* Debug */,
+				491B566A1CE4D5CD003F8011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491B56491CE4D5CD003F8011 /* Project object */;
+}

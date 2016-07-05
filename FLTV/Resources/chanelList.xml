@@ -1,0 +1,111 @@
+<ChannelList>
+	<channel>
+		<channel_name>ТНТ</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417897470_1381948855_tnt.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/tnt.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>СТС</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417905520_1382085518_ctc.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/sts.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Рен ТВ</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417904366_1381948361_rentv.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/ren.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Ю</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417902537_1389637376_yu.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/ren.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Первый канал</channel_name>
+		<channel_logo>laptitv.org/uploads/posts/2014-12/1417905665_1381914093_1kanal.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/first.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>НТВ</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417905557_1381933138_ntv.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/ntv.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Россия 1</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417905516_1388341432_russia1.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/rus1.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Матч ТВ</channel_name>
+		<channel_logo></channel_logo>
+		<channel_path>http://213.186.120.146/hls/match.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Че ТВ</channel_name>
+		<channel_logo></channel_logo>
+		<channel_path>http://213.186.120.146/hls/che.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>5 канал</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417902270_1392740088_5kanal.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/5kanal.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Пятница</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417904194_1394674002_pyatnica.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/pyatnica.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>ТВ3</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417904076_tv3.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/tv3.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Домашний канал</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417904254_1393037842_domtv.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/dom.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>ТВЦ</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417904323_1388925927_tvc.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/tvc.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Звезда</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417903990_zvezda.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/zvezda.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Россия 24</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417904169_1388683762_vesti.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/rus24.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Дисней</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417902401_1382085942_disney.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/disney.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Россия Культура</channel_name>
+		<channel_logo></channel_logo>
+		<channel_path>http://213.186.120.146/hls/kultura.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>Карусель</channel_name>
+		<channel_logo>http://laptitv.org/uploads/posts/2014-12/1417902698_1394715729_karusel.png</channel_logo>
+		<channel_path>http://213.186.120.146/hls/karusel.m3u8</channel_path>
+	</channel>
+	<channel>
+		<channel_name>ОРТ</channel_name>
+		<channel_logo></channel_logo>
+		<channel_path>http://213.186.120.146/hls/otr.m3u8</channel_path>
+	</channel>
+    
+    <channel>
+        <channel_name>Nickelodeon</channel_name>
+        <channel_logo></channel_logo>
+        <channel_path>http://gdl-cdsse-03.se.linear-abr.cdn.apptv.megacable.com.mx/Apple/Discovery2500.m3u8</channel_path>
+    </channel>
+    
+
+	
+</ChannelList>
